@@ -32,7 +32,7 @@ public class connectDB {
 
 		// delete data
 
-		int rslt = smt.executeUpdate("delete from seleniumusers where id=1");
+		int rslt = smt.executeUpdate("delete from seleniumusers where id=2");
 
 		System.out.println(rslt);
 

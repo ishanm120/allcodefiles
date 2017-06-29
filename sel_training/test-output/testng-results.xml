@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="326" started-at="2017-06-29T11:21:47Z" finished-at="2017-06-29T11:21:47Z">
+  <suite name="Default suite" duration-ms="627" started-at="2017-06-29T12:24:23Z" finished-at="2017-06-29T12:24:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="326" started-at="2017-06-29T11:21:47Z" finished-at="2017-06-29T11:21:47Z">
+    <test name="Default test" duration-ms="627" started-at="2017-06-29T12:24:23Z" finished-at="2017-06-29T12:24:24Z">
       <class name="testNG_framework.connectDB">
-        <test-method status="PASS" signature="databaseconnection()[pri:0, instance:testNG_framework.connectDB@215be6bb]" name="databaseconnection" duration-ms="291" started-at="2017-06-29T16:51:47Z" finished-at="2017-06-29T16:51:47Z">
+        <test-method status="PASS" signature="databaseconnection()[pri:0, instance:testNG_framework.connectDB@215be6bb]" name="databaseconnection" duration-ms="597" started-at="2017-06-29T17:54:23Z" finished-at="2017-06-29T17:54:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- databaseconnection -->
