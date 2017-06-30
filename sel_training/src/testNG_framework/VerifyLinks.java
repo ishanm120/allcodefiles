@@ -26,7 +26,7 @@ public class VerifyLinks {
 		driver.manage().window().maximize();
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println("Total Links are " + links.size());
-		StringBuilder urls = new StringBuilder();
+		/*StringBuilder urls = new StringBuilder();
 		for (WebElement webElement : links) 
 		{
 			urls.append(webElement.getAttribute("href"));
@@ -42,7 +42,8 @@ public class VerifyLinks {
 					System.out.println(urls);
 				}
 			} 
-		}
+		}*/
+		
 
 		for (int i = 0; i < links.size(); i++) {
 
@@ -52,8 +53,7 @@ public class VerifyLinks {
 			System.out.println(urls);
 			
 			
-			
-			if (urls.contains("null"))
+			if (urls.isEmpty())
 			{
 				System.out.println("url is containing null");
 			} 
@@ -66,7 +66,7 @@ public class VerifyLinks {
 				//linkActivecheck(urls);
 				System.out.println(urls);
 			}
-url
+
 		}
 	}
 
