@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="627" started-at="2017-06-29T12:24:23Z" finished-at="2017-06-29T12:24:24Z">
+  <suite name="Default suite" duration-ms="22399" started-at="2017-06-30T13:15:10Z" finished-at="2017-06-30T13:15:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="627" started-at="2017-06-29T12:24:23Z" finished-at="2017-06-29T12:24:24Z">
-      <class name="testNG_framework.connectDB">
-        <test-method status="PASS" signature="databaseconnection()[pri:0, instance:testNG_framework.connectDB@215be6bb]" name="databaseconnection" duration-ms="597" started-at="2017-06-29T17:54:23Z" finished-at="2017-06-29T17:54:24Z">
+    <test name="Default test" duration-ms="22399" started-at="2017-06-30T13:15:10Z" finished-at="2017-06-30T13:15:33Z">
+      <class name="testNG_framework.VerifyLinks">
+        <test-method status="PASS" signature="linkscheck()[pri:0, instance:testNG_framework.VerifyLinks@5d5eef3d]" name="linkscheck" duration-ms="22379" started-at="2017-06-30T18:45:10Z" finished-at="2017-06-30T18:45:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- databaseconnection -->
-      </class> <!-- testNG_framework.connectDB -->
+        </test-method> <!-- linkscheck -->
+      </class> <!-- testNG_framework.VerifyLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

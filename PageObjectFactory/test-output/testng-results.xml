@@ -2,29 +2,23 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="58801" started-at="2017-06-22T10:07:07Z" finished-at="2017-06-22T10:08:06Z">
+  <suite name="Default suite" duration-ms="70659" started-at="2017-06-30T07:57:25Z" finished-at="2017-06-30T07:58:36Z">
     <groups>
     </groups>
-    <test name="Kontackt_form" duration-ms="58801" started-at="2017-06-22T10:07:07Z" finished-at="2017-06-22T10:08:06Z">
-      <class name="utility.Base">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:utility.Base@32d992b2]" name="extentSetup" is-config="true" duration-ms="260" started-at="2017-06-22T15:37:07Z" finished-at="2017-06-22T15:37:07Z">
+    <test name="Default test" duration-ms="70659" started-at="2017-06-30T07:57:25Z" finished-at="2017-06-30T07:58:36Z">
+      <class name="testCases.KontaktPageTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="extentSetup" is-config="true" duration-ms="487" started-at="2017-06-30T13:27:25Z" finished-at="2017-06-30T13:27:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@54afd745]]>
+                <![CDATA[org.testng.TestRunner@10027fc9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:utility.Base@32d992b2]" name="generateReport" is-config="true" duration-ms="44" started-at="2017-06-22T15:38:06Z" finished-at="2017-06-22T15:38:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateReport -->
-      </class> <!-- utility.Base -->
-      <class name="testCases.KontaktPageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="initializeTestBaseSetup" is-config="true" duration-ms="8624" started-at="2017-06-22T15:37:07Z" finished-at="2017-06-22T15:37:16Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="18053" started-at="2017-06-30T13:27:26Z" finished-at="2017-06-30T13:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -35,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="formfillUp" duration-ms="6130" started-at="2017-06-22T15:37:16Z" data-provider="logindata" finished-at="2017-06-22T15:37:22Z">
+        <test-method status="PASS" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="6131" started-at="2017-06-30T13:27:44Z" data-provider="logindata" finished-at="2017-06-30T13:27:50Z">
           <params>
             <param index="0">
               <value>
@@ -66,18 +60,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formfillUp -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="afterEachTestMethod" is-config="true" duration-ms="1132" started-at="2017-06-22T15:37:22Z" finished-at="2017-06-22T15:37:23Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="1631" started-at="2017-06-30T13:27:50Z" finished-at="2017-06-30T13:27:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=formfillUp status=SUCCESS method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d] output={null}]]]>
+                <![CDATA[[TestResult name=formfillUp status=SUCCESS method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="initializeTestBaseSetup" is-config="true" duration-ms="6783" started-at="2017-06-22T15:37:23Z" finished-at="2017-06-22T15:37:30Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="7164" started-at="2017-06-30T13:27:52Z" finished-at="2017-06-30T13:27:59Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="FAIL" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="formfillUp" duration-ms="6087" started-at="2017-06-22T15:37:30Z" data-provider="logindata" finished-at="2017-06-22T15:37:36Z">
+        <test-method status="FAIL" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="6032" started-at="2017-06-30T13:27:59Z" data-provider="logindata" finished-at="2017-06-30T13:28:05Z">
           <params>
             <param index="0">
               <value>
@@ -159,18 +153,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formfillUp -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="afterEachTestMethod" is-config="true" duration-ms="1339" started-at="2017-06-22T15:37:36Z" finished-at="2017-06-22T15:37:37Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="1521" started-at="2017-06-30T13:28:05Z" finished-at="2017-06-30T13:28:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=formfillUp status=FAILURE method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d] output={null}]]]>
+                <![CDATA[[TestResult name=formfillUp status=FAILURE method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="initializeTestBaseSetup" is-config="true" duration-ms="6874" started-at="2017-06-22T15:37:37Z" finished-at="2017-06-22T15:37:44Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="6891" started-at="2017-06-30T13:28:07Z" finished-at="2017-06-30T13:28:14Z">
           <params>
             <param index="0">
               <value>
@@ -181,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="formfillUp" duration-ms="6094" started-at="2017-06-22T15:37:44Z" data-provider="logindata" finished-at="2017-06-22T15:37:50Z">
+        <test-method status="PASS" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="6097" started-at="2017-06-30T13:28:14Z" data-provider="logindata" finished-at="2017-06-30T13:28:20Z">
           <params>
             <param index="0">
               <value>
@@ -212,18 +206,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formfillUp -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="afterEachTestMethod" is-config="true" duration-ms="741" started-at="2017-06-22T15:37:50Z" finished-at="2017-06-22T15:37:51Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="726" started-at="2017-06-30T13:28:20Z" finished-at="2017-06-30T13:28:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=formfillUp status=SUCCESS method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d] output={null}]]]>
+                <![CDATA[[TestResult name=formfillUp status=SUCCESS method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="initializeTestBaseSetup" is-config="true" duration-ms="7588" started-at="2017-06-22T15:37:51Z" finished-at="2017-06-22T15:37:59Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="8692" started-at="2017-06-30T13:28:21Z" finished-at="2017-06-30T13:28:29Z">
           <params>
             <param index="0">
               <value>
@@ -234,7 +228,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="formfillUp" duration-ms="6082" started-at="2017-06-22T15:37:59Z" data-provider="logindata" finished-at="2017-06-22T15:38:05Z">
+        <test-method status="PASS" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="6033" started-at="2017-06-30T13:28:29Z" data-provider="logindata" finished-at="2017-06-30T13:28:35Z">
           <params>
             <param index="0">
               <value>
@@ -265,18 +259,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formfillUp -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d]" name="afterEachTestMethod" is-config="true" duration-ms="739" started-at="2017-06-22T15:38:05Z" finished-at="2017-06-22T15:38:06Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="766" started-at="2017-06-30T13:28:35Z" finished-at="2017-06-30T13:28:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=formfillUp status=SUCCESS method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@5d5eef3d] output={null}]]]>
+                <![CDATA[[TestResult name=formfillUp status=SUCCESS method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="generateReport" is-config="true" duration-ms="47" started-at="2017-06-30T13:28:36Z" finished-at="2017-06-30T13:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
       </class> <!-- testCases.KontaktPageTest -->
-    </test> <!-- Kontackt_form -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

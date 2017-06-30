@@ -5,7 +5,11 @@
     <classes>
       <class name="testCases.KontaktPageTest">
         <methods>
-          <include name="formfillUp"/>
+          <include name="extentSetup"/>
+          <include name="formfillUp" invocation-numbers="1"/>
+          <include name="generateReport"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
         </methods>
       </class> <!-- testCases.KontaktPageTest -->
     </classes>
