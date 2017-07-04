@@ -26,48 +26,36 @@ public class VerifyLinks {
 		driver.manage().window().maximize();
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println("Total Links are " + links.size());
-		StringBuilder urls = new StringBuilder();
-		for (WebElement webElement : links) 
-		{
-			urls.append(webElement.getAttribute("href"));
-			if (StringUtils.isNotEmpty(urls.toString()))
-			{
-				if (urls.contains("javascript")) 
-				{
+        int x = 0,y=0,z=0;
+		try {
+			for (int i = 0; i < links.size(); i++) {
+
+				WebElement ele = links.get(i);
+
+				String urls = ele.getAttribute("href");
+				/*System.out.println(urls);*/
+				
+		
+				if (urls==null) {
+					System.out.println("url is containing null");
+					x++;
+				} else if (urls.contains("javascript:")) {
+					
 					System.out.println("url is containing javascript");
+					y++;
+				} else {
+					 linkActivecheck(urls);
+					 z++;
+					
 				}
-				else 
-				{
-					//linkActivecheck(urls);
-					System.out.println(urls);
-				}
-			} 
-		}
+				
 
-		for (int i = 0; i < links.size(); i++) {
-
-			WebElement ele = links.get(i);
-			
-			String urls = ele.getAttribute("href");
-			System.out.println(urls);
-			
-			
-			
-			if (urls.contains("null"))
-			{
-				System.out.println("url is containing null");
-			} 
-			else if (urls.equalsIgnoreCase("javascript")) 
-			{
-				System.out.println("url is containing javascript");
 			}
-			else 
-			{
-				//linkActivecheck(urls);
-				System.out.println(urls);
-			}
-url
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		/*System.out.println(x+"======"+ y +"=========="+ z);*/
 	}
 
 	public static void linkActivecheck(String linkurl) throws IOException {

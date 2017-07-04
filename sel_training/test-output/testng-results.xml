@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22399" started-at="2017-06-30T13:15:10Z" finished-at="2017-06-30T13:15:33Z">
+  <suite name="Default suite" duration-ms="374223" started-at="2017-07-03T12:49:45Z" finished-at="2017-07-03T12:55:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22399" started-at="2017-06-30T13:15:10Z" finished-at="2017-06-30T13:15:33Z">
+    <test name="Default test" duration-ms="374223" started-at="2017-07-03T12:49:45Z" finished-at="2017-07-03T12:55:59Z">
       <class name="testNG_framework.VerifyLinks">
-        <test-method status="PASS" signature="linkscheck()[pri:0, instance:testNG_framework.VerifyLinks@5d5eef3d]" name="linkscheck" duration-ms="22379" started-at="2017-06-30T18:45:10Z" finished-at="2017-06-30T18:45:33Z">
+        <test-method status="PASS" signature="linkscheck()[pri:0, instance:testNG_framework.VerifyLinks@5d5eef3d]" name="linkscheck" duration-ms="374201" started-at="2017-07-03T18:19:45Z" finished-at="2017-07-03T18:25:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkscheck -->
