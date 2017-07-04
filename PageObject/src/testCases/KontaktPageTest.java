@@ -15,7 +15,7 @@ public class KontaktPageTest extends Base {
 	public Object[][] testData() throws Exception {
 
 		Util.DataProviderExcel("E:\\Automation Projects\\PageObject\\testDataFolder\\inputtext.xlsx");
-System.out.println("test");
+
 		int rows = Util.getRowCount(0);
 
 		Object[][] data = new Object[4][5];
