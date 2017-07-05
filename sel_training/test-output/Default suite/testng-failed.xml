@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNG_framework.VerifyLinks">
+      <class name="testNG_framework.connectDB">
         <methods>
-          <include name="linkscheck"/>
+          <include name="databaseconnection"/>
         </methods>
-      </class> <!-- testNG_framework.VerifyLinks -->
+      </class> <!-- testNG_framework.connectDB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

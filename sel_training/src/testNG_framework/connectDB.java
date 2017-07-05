@@ -24,27 +24,36 @@ public class connectDB {
 
 		// statement generation
 		Statement smt = con.createStatement();
+		
 
-		/*
-		 * display all data ResultSet rslt= smt.executeQuery(
-		 * "select * from seleniumusers");
-		 */
-
-		// delete data
-
-		int rslt = smt.executeUpdate("delete from seleniumusers where id=2");
-
-		System.out.println(rslt);
-
-		// display remaining all data
-		ResultSet rslt1 = smt.executeQuery("select * from seleniumusers");
-		while (rslt1.next()) {
+	
+	//String displayData= "select * from seleniumusers";
+     //String AlterQuery= "ALTER TABLE seleniumusers ADD Profile Char(10)";
+     //String UpdateQuery= "UPDATE seleniumusers SET Salary = '55000.00', Profile= 'QA Lead' WHERE id = 4";
+	// String deleteQuesry= "delete from seleniumusers where id=2";
+     String createtables= "CREATE TABLE WebEmp (ID int,FirstName varchar(255),Profile varchar(255),Project varchar(255), Salary float(20))";
+     
+     
+     
+        smt.executeUpdate(createtables);
+    //    smt.executeQuery(displayData);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*while (rslt1.next()) {
 			String firstname = rslt1.getString("firstname");
-			System.out.println(firstname);
-
 			String mail = rslt1.getString("email");
-			System.out.println(mail);
-		}
+			System.out.println(firstname+"  "+mail);
+
+			
+			
+		}*/
 
 	}
 
