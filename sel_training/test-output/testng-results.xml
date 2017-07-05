@@ -1,17 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="302" started-at="2017-07-05T08:04:37Z" finished-at="2017-07-05T08:04:38Z">
+  <suite name="Default suite" duration-ms="1817" started-at="2017-07-05T11:31:45Z" finished-at="2017-07-05T11:31:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="302" started-at="2017-07-05T08:04:37Z" finished-at="2017-07-05T08:04:38Z">
-      <class name="testNG_framework.connectDB">
-        <test-method status="PASS" signature="databaseconnection()[pri:0, instance:testNG_framework.connectDB@5dfcfece]" name="databaseconnection" duration-ms="280" started-at="2017-07-05T13:34:37Z" finished-at="2017-07-05T13:34:38Z">
+    <test name="Default test" duration-ms="1817" started-at="2017-07-05T11:31:45Z" finished-at="2017-07-05T11:31:47Z">
+      <class name="testNG_framework.ConnectDBOne">
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="232" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2053d869]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- databaseconnection -->
-      </class> <!-- testNG_framework.connectDB -->
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="42" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7a419da4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="39" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@14555e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="30" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4bb33f74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="39" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@759d26fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="43" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3c73951]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="40" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3d5c822d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="42" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6f46426d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="38" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@73700b80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="30" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@49c7b90e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="39" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@10d307f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="42" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4d5b6aac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="28" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3e84448c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="31" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4a7f959b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="27" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@429bffaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="42" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5403f35f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="27" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@483f6d77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="42" started-at="2017-07-05T17:01:46Z" data-provider="logindata" finished-at="2017-07-05T17:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7e5afaa6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="27" started-at="2017-07-05T17:01:47Z" data-provider="logindata" finished-at="2017-07-05T17:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@63a12c68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="main([Ljava.lang.String;)[pri:0, instance:testNG_framework.ConnectDBOne@4520ebad]" name="main" duration-ms="30" started-at="2017-07-05T17:01:47Z" data-provider="logindata" finished-at="2017-07-05T17:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@28f3b248]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- testNG_framework.ConnectDBOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

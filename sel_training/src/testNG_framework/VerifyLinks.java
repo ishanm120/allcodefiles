@@ -26,7 +26,7 @@ public class VerifyLinks {
 		driver.manage().window().maximize();
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println("Total Links are " + links.size());
-        int x = 0,y=0,z=0;
+       
 		try {
 			for (int i = 0; i < links.size(); i++) {
 
@@ -38,14 +38,14 @@ public class VerifyLinks {
 		
 				if (urls==null) {
 					System.out.println("url is containing null");
-					x++;
+					
 				} else if (urls.contains("javascript:")) {
 					
 					System.out.println("url is containing javascript");
-					y++;
+					
 				} else {
 					 linkActivecheck(urls);
-					 z++;
+					
 					
 				}
 				
