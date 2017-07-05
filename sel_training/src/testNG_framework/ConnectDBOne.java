@@ -21,8 +21,7 @@ public class ConnectDBOne {
 	static XSSFSheet sheet;
 
 	@Test(dataProvider = "logindata")
-	public static void main(String []id)
-			throws ClassNotFoundException, SQLException {
+	public static void main(String []id) throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/selenium", "root", "root");
 		mainMethod(id[0], id[1], id[2], id[3], id[4],con);
