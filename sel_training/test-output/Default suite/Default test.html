@@ -55,19 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<<<<<<< HEAD
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 04 16:44:24 IST 2017</td>
+<td>Started on:</td><td>Thu Jul 06 12:52:19 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (39 ms)</td>
-=======
-<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
-</tr><tr>
-<td>Started on:</td><td>Wed Jul 05 17:01:45 IST 2017</td>
-</tr>
-<tr><td>Total time:</td><td>1 seconds (1817 ms)</td>
->>>>>>> de84cb098b0bb9d8bc6ff84508d0d63dbaba3110
+<tr><td>Total time:</td><td>0 seconds (665 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,135 +67,59 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='testNG_framework.UnitTest.unit1()'><b>unit1</b><br>Test class: testNG_framework.UnitTest</td>
-<td></td>
+<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne</td>
+<td><div><pre>org.testng.TestNGException: 
+The data provider is trying to pass 5 parameters but the method testNG_framework.ConnectDBOne#main takes 1
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1337)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1225)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace989447607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace989447607'><pre>org.testng.TestNGException: 
+The data provider is trying to pass 5 parameters but the method testNG_framework.ConnectDBOne#main takes 1
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1337)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1225)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>testNG_framework.UnitTest@b97c004</td></tr>
-<tr>
-<td title='testNG_framework.UnitTest.unit3()'><b>unit3</b><br>Test class: testNG_framework.UnitTest</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.UnitTest@b97c004</td></tr>
-<tr>
-<td title='testNG_framework.UnitTest.unit4()'><b>unit4</b><br>Test class: testNG_framework.UnitTest</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.UnitTest@b97c004</td></tr>
-<tr>
-<td title='testNG_framework.UnitTest.unit5()'><b>unit5</b><br>Test class: testNG_framework.UnitTest</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.UnitTest@b97c004</td></tr>
-=======
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@2053d869</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@7a419da4</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@14555e0a</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@4bb33f74</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@759d26fb</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@3c73951</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@3d5c822d</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@6f46426d</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@73700b80</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@49c7b90e</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@10d307f1</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@4d5b6aac</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@3e84448c</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@4a7f959b</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@429bffaa</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@5403f35f</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@483f6d77</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@7e5afaa6</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@63a12c68</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
-<tr>
-<td title='testNG_framework.ConnectDBOne.main()'><b>main</b><br>Test class: testNG_framework.ConnectDBOne<br>Parameters: [Ljava.lang.String;@28f3b248</td>
-<td></td>
-<td>0</td>
-<td>testNG_framework.ConnectDBOne@4520ebad</td></tr>
->>>>>>> de84cb098b0bb9d8bc6ff84508d0d63dbaba3110
+<td>testNG_framework.ConnectDBOne@50c87b21</td></tr>
 </table><p>
 </body>
 </html>

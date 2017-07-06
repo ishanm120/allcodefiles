@@ -1,4 +1,4 @@
-package testjava;
+package testNG_framework;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

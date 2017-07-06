@@ -21,20 +21,28 @@ public class ConnectDBOne {
 	static XSSFSheet sheet;
 
 	@Test(dataProvider = "logindata")
-	public static void main(String []id)throws ClassNotFoundException, SQLException {
+	public static void main(String id[])throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/selenium", "root", "root");
-		mainMethod(id[0], id[1], id[2], id[3], id[4],con);
+		mainMethod(id[0],id[1],id[2],id[3],id[4],con);
 	}
 
 	
 	
 	public static void mainMethod(String id, String name, String profile, String project, String salary, Connection con) throws ClassNotFoundException, SQLException {
 		
+		String COMMA_QUOTE = ",'";
+		String QUOTE_COMMA = "',";
+		String QUOTE_COMMA_QUOTE = "','";
 		Statement smt = con.createStatement();
-		String queryStatement = "INSERT INTO WebEmp VALUES ( id + ",'" + name + "','" + profile + "','" + project + "'," + salary )";
-
-
+		String queryStatement = "INSERT INTO WebEmp VALUES ("+ id + ",'" + name + "','" + profile + "','" + project + "'," + salary +")";
+//		StringBuilder query = new StringBuilder("INSERT INTO WebEmp VALUES (");
+//		query.append(id);
+//		query.append(COMMA_QUOTE);
+//		query.append(name).append(QUOTE_COMMA_QUOTE).append(profile).append(QUOTE_COMMA_QUOTE).append(project).append(QUOTE_COMMA);
+//		query.append(salary);
+//		System.out.println(query.toString());
+//		smt.execute(query.toString());
 		smt.execute(queryStatement);
 	} 
 
@@ -61,6 +69,7 @@ public class ConnectDBOne {
 
 			}
 		}
+		
 		return data;
 	}
 
