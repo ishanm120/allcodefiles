@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNG_framework.ConnectDBOne">
+      <class name="testNG_framework.connectDB">
         <methods>
-          <include name="main"/>
+          <include name="databaseconnection"/>
         </methods>
-      </class> <!-- testNG_framework.ConnectDBOne -->
+      </class> <!-- testNG_framework.connectDB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
