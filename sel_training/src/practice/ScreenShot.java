@@ -1,4 +1,4 @@
-package practice;
+package src.practice;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,14 +28,19 @@ public class ScreenShot {
 	
 	public static void caturescreenshot(){
 		
-		File srcfile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		/*File srcfile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		try {
-			FileUtils.copyFile(srcfile, new File("E:\\screenshots\\abc.png"));
-		} catch (IOException e) {
-			
-			e.printStackTrace();
-		}
+	
+			FileUtils.copyFile(srcfile, new File("E:\\screenshots\\abc.png"));*/
+		 File scrfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		 File destfile= new File("E:\\Automationdata\\test" + System.currentTimeMillis() + ".png");
+			try {
+				FileUtils.copyFile(scrfile, destfile);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
 	}
 
 }
