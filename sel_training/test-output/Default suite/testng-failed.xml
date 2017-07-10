@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNG_framework.ConnectDBOne">
+      <class name="testNG_framework.connectDB">
         <methods>
-          <include name="main" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19"/>
+          <include name="databaseconnection"/>
         </methods>
-      </class> <!-- testNG_framework.ConnectDBOne -->
+      </class> <!-- testNG_framework.connectDB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
