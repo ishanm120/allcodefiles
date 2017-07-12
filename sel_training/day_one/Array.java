@@ -1,4 +1,4 @@
-package src.day_one;
+package day_one;
 
 public class Array {
 	

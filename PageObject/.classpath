@@ -20,5 +20,6 @@
 	<classpathentry kind="lib" path="E:/Automationdata/testng-6.8.7.jar"/>
 	<classpathentry kind="lib" path="E:/Automationdata/Extent report/extentreports-2.40.2.jar"/>
 	<classpathentry kind="lib" path="E:/Automationdata/Extent report/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="E:/Automationdata/jxl.jar/jxl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

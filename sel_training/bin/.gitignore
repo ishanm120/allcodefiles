@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-/src/
 /practice/
-=======
-/ConnectDBOne.class
-/Functional.class
-/ReadingExcel.class
-/SanityTests.class
-/ScreenShots.class
-/ScreenSize.class
-/Scrollwindow.class
-/UnitTest.class
-/VerifyLinks.class
-/WriteExcel.class
-/brokenlinks.class
-/connectDB.class
-/practice.class
-/test.class
 /testNG_framework/
->>>>>>> 6457ddd095252090fcaf695badb3866bf5309810
+/day_one/
