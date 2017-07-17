@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="edge"/>
-  <test name="TestEdge(failed)" parallel="tests">
-    <parameter name="browser" value="edge"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testNG_framework.ParallelTest">
+      <class name="testNG_framework.GridImplement">
         <methods>
-          <include name="crossbrosertest" invocation-numbers="0"/>
+          <include name="SampleTest"/>
+          <include name="steup"/>
         </methods>
-      </class> <!-- testNG_framework.ParallelTest -->
+      </class> <!-- testNG_framework.GridImplement -->
     </classes>
-  </test> <!-- TestEdge(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
