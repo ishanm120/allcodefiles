@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 13 16:56:16 IST 2017</td>
+<td>Started on:</td><td>Fri Jul 14 12:27:02 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>62 seconds (62007 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21825 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,38 +76,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testNG_framework.GridImplement.steup()'><b>steup</b><br>Test class: testNG_framework.GridImplement</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Error forwarding the request Connect to 192.168.5.63:4444 [/192.168.5.63] failed: Connection timed out: connect
-Command duration or timeout: 60.89 seconds
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;WV589&apos;, ip: &apos;192.168.91.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: driver.version: RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at testNG_framework.GridImplement.steup(GridImplement.java:28)
+	at testNG_framework.GridImplement.steup(GridImplement.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -130,71 +108,47 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session Error forwarding the request Connect to 192.168.5.63:4444 [/192.168.5.63] failed: Connection timed out: connect
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:112)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:543)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1584)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:481)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1553)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:564)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:320)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:112)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
-	at org.seleniumhq.jetty9.util.thread.Invocable.invokePreferred(Invocable.java:122)
-	at org.seleniumhq.jetty9.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
-	at org.seleniumhq.jetty9.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
-	at org.seleniumhq.jetty9.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
-	at java.lang.Thread.run(Thread.java:748)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2087785333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2087785333'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session Error forwarding the request Connect to 192.168.5.63:4444 [/192.168.5.63] failed: Connection timed out: connect
-Command duration or timeout: 60.89 seconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;WV589&apos;, ip: &apos;192.168.91.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: driver.version: RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.5.63:5555 [/192.168.5.63] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:139)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:87)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:343)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	... 27 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 42 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace285133380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace285133380'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;WV589&apos;, ip: &apos;192.168.91.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at testNG_framework.GridImplement.steup(GridImplement.java:28)
+	at testNG_framework.GridImplement.steup(GridImplement.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -217,38 +171,36 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session Error forwarding the request Connect to 192.168.5.63:4444 [/192.168.5.63] failed: Connection timed out: connect
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:112)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:543)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1584)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:481)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1553)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:564)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:320)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:112)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
-	at org.seleniumhq.jetty9.util.thread.Invocable.invokePreferred(Invocable.java:122)
-	at org.seleniumhq.jetty9.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
-	at org.seleniumhq.jetty9.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
-	at org.seleniumhq.jetty9.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
-	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.5.63:5555 [/192.168.5.63] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:139)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:87)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:343)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	... 27 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 42 more
 </pre></div></td>
 <td>0</td>
 <td>null</td></tr>

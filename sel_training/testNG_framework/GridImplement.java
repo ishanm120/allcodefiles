@@ -6,6 +6,7 @@ import java.net.URL;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
@@ -22,11 +23,14 @@ public class GridImplement {
 	@BeforeTest
 	public void steup() throws MalformedURLException{
 		baseurl= "http://google.com";
-		nodeurl= "http://192.168.5.63:5555/wd/hub";
+		nodeurl= "http://192.168.5.60:5555/wd/hub";
 		DesiredCapabilities capability = DesiredCapabilities.chrome();
-		capability.setBrowserName("chrome");                           
+		capability.setBrowserName("firefox");                           
 		capability.setPlatform(Platform.VISTA);   
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
+	//	
+		System.setProperty("webdriver.gecko.driver", "E:\\Automationdata\\Browsers\\geckodriver.exe");
+		 driver = new FirefoxDriver();
 	//	driver = new ChromeDriver();
 		driver = new RemoteWebDriver(new URL(nodeurl), capability); 
 	}
@@ -42,7 +46,7 @@ public class GridImplement {
 	public void SampleTest()
 	{
 		driver.get(baseurl);
-		Assert.assertEquals("google", driver.getTitle());
+		Assert.assertEquals("Google", driver.getTitle());
 	}
 	
 
